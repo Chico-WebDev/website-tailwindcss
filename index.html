@@ -6,25 +6,25 @@
     <title>AI</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body class=" bg-white text-black dark:bg-gray-900 dark:text-white">
+<body class=" bg-white text-black dark:bg-gray-900 dark:text-white box-border">
 
     <button id="backToTopBtn" class="fixed bottom-10 right-5 p-3 text-2xl text-white border-none rounded-md cursor-pointer shadow-slate-800 bg-cyan-500">🔝</button>
-    <header class="flex justify-between md:m-5 mt-5 mb-20 items-center">
+    <header class="flex justify-between p-3 md:p-5 pt-5 pb-20 items-center max-w-[100%]">
 
-        <h1 class="text-5xl font-bold">A<span class="text-cyan-500">I</span></h1>
+        <h1 class="text-3xl md:text-5xl font-bold">A<span class="text-cyan-500">I</span></h1>
 
             
-        <nav id="navMenu" class="hidden md:flex">
-            <ul class="flex gap-5 bold">
-                <li class="pr-5px pl-5px md:text-2xl font-bold border-b-2 border-teal-500 pb-2"><a href=""></a>Home</li>
-                <li class="pr-5px pl-5px font-bold  md:hover:text-2xl hover:border-b-2 hover: border-teal-500 hover:pb-2"><a href="#Games">Games</a></li>
-                <li class="pr-5px pl-5px  font-bold md:hover:text-2xl hover:border-b-2 hover: border-teal-500 hover:pb-2"><a href="#Dev">Dev</a></li>
-                <li class="pr-5px pl-5px font-bold md:hover:text-2xl hover:border-b-2 hover: border-teal-500 hover:pb-2"><a href="#About Us">About Us</a></li>
+        <nav id="navMenu" class="hidden md:flex max-w-[100%]">
+            <ul class="flex gap-3 sm:gap-5 md:gap-10 bold max-w-[100%]">
+                <li class="pr-5px pl-5px sm:text-2xl font-bold border-b-2 border-teal-500 pb-2"><a href=""></a>Home</li>
+                <li class="pr-5px pl-5px font-bold  md:hover:text-2xl hover:border-b-2 hover: border-teal-500 hover:pb-1"><a href="#Games">Games</a></li>
+                <li class="pr-5px pl-5px font-bold md:hover:text-2xl hover:border-b-2 hover: border-teal-500 hover:pb-2"><a href="#Dev">Dev</a></li>
+                <li class="pr-5px pl-5px font-bold md:hover:text-2xl hover:border-b-2 hover: border-teal-500 hover:pb-2"><a href="#About Us">About</a></li>
             </ul>
 
         </nav>
 
-            <div class="md:gap-10 flex gap-5 p-3 md:bg-none bg-gray-100 dark:bg-gray-900 shadow-lg rounded-lg">
+            <div class="md:gap-10 flex gap-5 p-3 md:bg-none bg-gray-100 dark:bg-gray-900 shadow-lg rounded-lg max-w-[100%]">
                
                 </ul>
              <button class="w-10 relative flex md:hidden">
@@ -42,11 +42,11 @@
     </header>
 
     <main>
-        <section class="block justify-between mt-100 m-5 mt-20 border-solid shadow-lg bg-white dark:bg-gray-900  text-center p-10 relative">
+        <section class="block place-items-center  pt-20 border-solid shadow-lg bg-white dark:bg-gray-900  text-center p-10 relative max-w-[100%]">
 
-            <img src="./images/AdobeStock_521661218_Preview.jpeg" class="block w-[100%] relative">
-            <div class="block text-center  sticky z-10 m-auto w-[100%] text-gray-700 dark:text-white">
-                <h1 class="text-2xl mb-5 block">Welcome on our Website</h1>
+            <img src="./images/AdobeStock_521661218_Preview.jpeg" class="block max-w-[100%] relative">
+            <div class="block text-center  m-auto w-[100%] text-gray-700 dark:text-white">
+                <h1 class="text-2xl pb-5 block">Welcome on our Website</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque expedita quas sit enim voluptate modi sapiente. Iure odit voluptatum officiis expedita, fuga fugiat rerum ratione numquam inventore veniam, aperiam voluptatem.
 
                 </p>
@@ -57,57 +57,61 @@
 
         </section>
         
-        <section id="Games" class="grid grid-cols-1 gap-5 m-5 mt-40 text-center md:grid md:grid-cols-3 md:gap-5 md:m-5 md:mt-40">
-            <h1 class="absolute mb-5 text-3xl font-bold">Game AI</h1>
-            <div class="block text-center p-5 relative w-[400px] m-auto md:w-[200px] lg:w-[300px] xl:w-[400px] rounded mt-8 bg-white dark:bg-gray-900 shadow-lg">
-                <img src="./images/game1.jpeg" class="w-[100%] rounded transform mt-5 hover:scale-110">
+        <section id="Games" class="block p-5 pb-5 pt-32 place-items-center text-center md:p-5 md:pt-32 md:pb-10 max-w-[100%]">
+            <h1 class=" text-3xl font-bold">Game AI</h1>
+            <div class="grid grid-cols-1 gap-5 pb-32 place-items-center text-center md:grid md:grid-cols-3 md:gap-16 md:pt-5 md:pb-10 max-w-[100%]">
+            <div class="block text-center p-5 relative w-[400px] md:w-[200px] lg:w-[300px] xl:w-[400px] rounded pt-8 bg-white dark:bg-gray-900 shadow-lg max-w-[100%]">
+                <img src="./images/game1.jpeg" class="max-w-[100%] rounded transform pt-5 hover:scale-110">
                 <button class=" mt-5 p-3 text-white border-1 rounded bg-cyan-600 hover:bg-orange-600"><a href="">See More</a></button>
             </div>
 
-            <div class="block text-center p-5 relative w-[400px] m-auto md:w-[200px] lg:w-[300px] xl:w-[400px] rounded mt-8 bg-white dark:bg-gray-900 shadow-lg">
-                <img src="./images/game2.jpeg" class="w-[100%] rounded transform mt-5 hover:scale-110">
+            <div class="block text-center p-5 relative w-[400px] md:w-[200px] lg:w-[300px] xl:w-[400px] rounded pt-8 bg-white dark:bg-gray-900 shadow-lg max-w-[100%]">
+                <img src="./images/game2.jpeg" class="max-w-[100%] rounded transform pt-5 hover:scale-110">
                 <button class=" mt-5 p-3 text-white border-1 rounded bg-cyan-600 hover:bg-orange-600"><a href="">See More</a></button>
             </div>
 
-            <div class="block text-center p-5 relative w-[400px] m-auto md:w-[200px] lg:w-[300px] xl:w-[400px] rounded mt-8 bg-white dark:bg-gray-900 shadow-lg">
-                <img src="./images/game3.jpeg" class="w-[100%] rounded transform mt-5 hover:scale-110">
+            <div class="block text-center p-5 relative w-[400px] md:w-[200px] lg:w-[300px] xl:w-[400px] rounded pt-8 bg-white dark:bg-gray-900 shadow-lg max-w-[100%]">
+                <img src="./images/game3.jpeg" class="max-w-[100%] rounded transform pt-5 hover:scale-110">
                 <button class=" mt-5 p-3 text-white border-1 rounded bg-cyan-600 hover:bg-orange-600"><a href="">See More</a></button>
+            </div>
             </div>
         </section>
         
 
-        <section id="Dev" class="grid grid-cols-1 gap-5 m-5 mt-32 text-center md:grid md:grid-cols-3 md:gap-5 md:m-5 md:mt-32">
-            <h1 class="absolute mb-5 text-3xl font-bold">Dev AI</h1>
-            <div class="block text-center p-5 relative w-[400px] m-auto md:w-[200px] lg:w-[300px] xl:w-[400px] rounded mt-8 bg-white dark:bg-gray-900 shadow-lg">
-                <img src="./images/dev1.jpeg" class="w-[100%] rounded transform mt-5 hover:scale-110">
+        <section id="Dev" class="block p-5 pb-10 pt-5 place-items-center text-center md:p-5 md:pt-10 md:pb-10 max-w-[100%]">
+            <h1 class=" text-3xl font-bold">Dev AI</h1>
+            <div class="grid grid-cols-1 gap-5 pb-32 place-items-center text-center md:grid md:grid-cols-3 md:gap-16 md:pt-5 md:pb-10 max-w-[100%]">
+            <div class="block text-center p-5 relative w-[400px] md:w-[200px] lg:w-[300px] xl:w-[400px] rounded pt-8 bg-white dark:bg-gray-900 shadow-lg max-w-[100%]">
+                <img src="./images/dev1.jpeg" class="max-w-[100%] rounded transform mt-5 hover:scale-110">
                 <button class=" mt-5 p-3 text-white border-1 rounded bg-cyan-600 hover:bg-orange-600"><a href="">See More</a></button>
             </div>
 
-            <div class="block text-center p-5 relative w-[400px] m-auto md:w-[200px] lg:w-[300px] xl:w-[400px] rounded mt-8 bg-white dark:bg-gray-900 shadow-lg">
-                <img src="./images/dev2.jpeg" class="w-[100%] rounded transform mt-5 hover:scale-110">
+            <div class="block text-center p-5 relative w-[400px] md:w-[200px] lg:w-[300px] xl:w-[400px] rounded pt-8 bg-white dark:bg-gray-900 shadow-lg max-w-[100%]">
+                <img src="./images/dev2.jpeg" class="max-w-[100%] rounded transform pt-5 hover:scale-110">
                 <button class=" mt-5 p-3 text-white border-1 rounded bg-cyan-600 hover:bg-orange-600"><a href="">See More</a></button>
             </div>
 
-            <div class="block text-center p-5 relative w-[400px] m-auto md:w-[200px] lg:w-[300px] xl:w-[400px] rounded mt-8 bg-white dark:bg-gray-900 shadow-lg">
-                <img src="./images/dev3.jpeg" class="w-[100%] rounded transform mt-5 hover:scale-110">
+            <div class="block text-center p-5 relative w-[400px] md:w-[200px] lg:w-[300px] xl:w-[400px] rounded pt-8 bg-white dark:bg-gray-900 shadow-lg max-w-[100%]">
+                <img src="./images/dev3.jpeg" class="max-w-[100%] rounded transform pt-5 hover:scale-110">
                     <button class=" mt-5 p-3 text-white border-1 rounded bg-cyan-600 hover:bg-orange-600"><a href="">See More</a></button>
             </div>
+        </div>
         </section>
 
     </main>
 
-   <footer id="About Us" class="block m-5 mb-1 mt-40 bg-slate-400 p-5 shadow-lg text-white">
-    <section class="block lg:flex lg:justify-between lg:gap-40">
+   <footer id="About Us" class="block pb-1 pt-10 bg-gray-400 p-5 shadow-lg text-white max-w-[100%]">
+    <section class="block pb-10 lg:flex lg:justify-between lg:gap-40 max-w-[100%]">
 
-        <div class="block">
-            <h1 class="text-3xl mb-5 font-bold">Compagnies & Services</h1>
+        <div class="block pb-10">
+            <h1 class="text-3xl pb-5 font-bold">Compagnies & Services</h1>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium iusto atque, nihil, nostrum doloremque dolores porro blanditiis tempora ullam mollitia deleniti dolor reiciendis ratione excepturi autem iure et quibusdam reprehenderit illum praesentium, ducimus provident. Eligendi quisquam rem asperiores voluptas ex velit, veritatis animi, eos, libero excepturi ipsum nam cupiditate maxime?
             </p>
         </div>
 
-        <div class="block mt-20 md:m-0">
-            <h1 class="text-3xl mb-5 font-bold">Contact & Follow</h1>
+        <div class="block pt-10 md:pt-0">
+            <h1 class="text-3xl pb-5 font-bold">Contact & Follow</h1>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium iusto atque, nihil, nostrum doloremque dolores porro blanditiis tempora ullam mollitia deleniti dolor reiciendis ratione excepturi autem iure et quibusdam reprehenderit illum praesentium, ducimus provident. Eligendi quisquam rem asperiores voluptas ex velit, veritatis animi, eos, libero excepturi ipsum nam cupiditate maxime?
             </p>
@@ -115,8 +119,8 @@
 
     </section>
 
-    <div class="block p-5 mt-20 text-center shadow-lg bg-slate-400">
-        <p>&copy; Copyright 2024 by<a href="" class="text-orange-600 hover:text-cyan-400"> Chico-WebDev</a></p>
+    <div class="block p-5 text-center shadow-lg bg-gray-400 max-w-[100%]">
+        <p>&copy; Copyright 2024 by<a href="" class="text-teal-900 hover:text-cyan-400"> Chico-WebDev</a></p>
     </div>
 
    </footer>
